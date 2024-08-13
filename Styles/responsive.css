@@ -111,13 +111,13 @@
 .banner-images{
     margin-top:80px;
     margin-right:30px;
-    height: 595px;
+    height: 466px;
     }
 .banner-images > img{
     width: 100%;
 }
 .primary-btn, .banner-btn{
-    padding: 16px 30px 16px 30px;
+    padding: 16px 20px 16px 20px;
     width: 169px;
     height: 54px;
 }
@@ -140,7 +140,7 @@
     position: absolute;
     line-height:20px;
     font-size:1.8rem;
-    left: 55%;
+    left: 56%;
     top:12%;
     width: 145.91px;
     height: 74.09px;
@@ -184,8 +184,8 @@
  
 }
 .run-image > img{
-    width: 80%;
-    margin-left:38px;
+    width: 85%;
+    margin-left:33px;
 }
 /* BMI section */
 .bmi-container > h1 {
