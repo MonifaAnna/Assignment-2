@@ -170,6 +170,9 @@
     padding: 30px;
 
 }
+.run-description > h1{
+    font-size: 2rem;
+}
 .run-btn{
     width: 100%;
     padding: 15px;
@@ -177,12 +180,12 @@
 
 .run-image{
     width: 100%;
+    margin-bottom: 20px;
  
 }
 .run-image > img{
     width: 80%;
-    margin-left: 40px;
-    margin-bottom: 20px;
+    margin-left:38px;
 }
 /* BMI section */
 .bmi-container > h1 {
