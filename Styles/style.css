@@ -1,5 +1,12 @@
 /* font style-link */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+.shape{
+    font-family: 'Miama', sans-serif;
+                                                
+    font-weight: 400;
+    font-style: normal;
+}
 *{
     margin:0;
     padding:0;
@@ -13,7 +20,7 @@ body{
     display: flex;
 }
 .primary-btn{
-    padding: 15px 55px;
+    padding:16px 40px 16px 40px;
     border-radius: 35px;
     color: white;
     background-color: rgb(230, 83, 60);
@@ -23,9 +30,13 @@ body{
 }
 /* header styles */
 body{
-    background:linear-gradient(to top, rgb(0, 0, 0),rgb(40, 40, 40));
+    background:black;
 }
 /* navbar styles here */
+header{
+   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.315) 100%);
+}
+
 .navbar{
     width: 80%;
     margin:0px auto;
@@ -59,30 +70,29 @@ button:nth-child(1){
     margin: 0px auto;
     margin-top: 80px;
     justify-content:space-between;
+ 
 }
 .banner-description > h1{
-    font-size:4.5rem;
+    font-size:4.8rem;
+    font-weight: 900;
     line-height:5.5rem;
     color:white;
     font-weight: 800;
    
 }
 .banner-description > p{
-    color:gray;
+    color: rgba(255, 255, 255, 0.5);
     margin-top: 30px;
     font-size: 1rem;
     margin-bottom: 10px;
-
-}
-.banner-description > span{
-    font-family: italic;
 }
 .banner-images{
     margin-right:100px;
     margin-top:-50px;
+    height:580px;
 }
 .banner-btn{
-    padding: 12px 50px;
+    padding: 16px 40px 16px 40px;
     border-radius: 35px;
     color: white;
     background-color:black;
@@ -95,20 +105,22 @@ button:nth-child(1){
     position: relative;
 }
 .img-btn-1{
-    padding: 20px 20px;
-    background-color: rgba(81, 80, 80, 0.393);
+    padding: 25px 20px;
+    width: 206px;
+    height: 96px;
+    background: rgba(48, 48, 48, 0.54);
     color: white;
-    border:0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0px 0px 1px 1px rgb(92, 91, 91);
-    border-radius:10px;
+    border-radius:12px;
     font-size:1.1rem;
     gap: 10px;
     align-items:start;
     position:relative;
-    top:-23%;
+    top:-27%;
     left:-30%; 
     align-items: start;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(20px);
 }
 .img-btn-1 .circle{
     width: 35px;
@@ -116,28 +128,42 @@ button:nth-child(1){
     background-color:rgb(230, 83, 60);
     border-radius: 50%;
 }
-.img-btn-2{
-    padding: 20px 20px 10px 20px;
-    background-color: rgba(81, 80, 80, 0.393);
-    color: white;
-    box-shadow: 0px 0px 1px 1px rgb(92, 91, 91);
-    border:0;
-    border-radius:10px;
-    font-size:1.1rem;
-    gap: 10px;
-    align-items:start;
-    position:relative;
-    top: -72%;
-    left: 63%;
+.img-btn-description{
     text-align: start;
-    font-size: 2rem;
-    backdrop-filter: blur(4px);
-    font-weight: 800;
+}
+.img-btn-description > .description-1{
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.img-btn-description > .description-2{
+    color: rgba(239, 237, 232, 0.65);
+}
+.fa-solid{
+    margin-top: 8px;
+}
+.img-btn-2{
+    position: absolute;
+    width: 193px;
+    height: 98px;
+    left: 220px;
+    top: 110px;
+    text-align: start;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    padding-left: 20px;
     line-height: 1.5rem;
+    padding-top: 10px;
+
 }
 .img-btn-2 > span{
-    font-size: 1rem;
-    color: rgb(128, 124, 124);
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.65);
     font-weight: 100;
 }
 /* habit styles */
@@ -146,6 +172,7 @@ button:nth-child(1){
     margin: 0px auto;
     text-align: center;
     color: white;
+    margin-top: 50px;
 }
 .habit-title{
     font-size: 2.5rem;
