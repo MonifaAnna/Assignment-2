@@ -111,24 +111,39 @@
 .banner-images{
     margin-top:80px;
     margin-right:30px;
+    height: 595px;
     }
 .banner-images > img{
     width: 100%;
 }
 .primary-btn, .banner-btn{
-    padding: 10px 20px;
+    padding: 16px 30px 16px 30px;
+    width: 169px;
+    height: 54px;
+}
+.img-btn-description > .description-1{
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+.img-btn-description > .description-2{
+    font-size: 12px;
 }
 .img-btn-1{  
     position: absolute;
     top: 45%;
     left:-1%;
+    width: 155.74px;
+    height: 72.58px;
+    padding: 20px 20px;
 } 
 .img-btn-2{
     position: absolute;
-   line-height:20px;
-   font-size:2rem;
-   left: 55%;
-   top:15%;
+    line-height:20px;
+    font-size:1.8rem;
+    left: 55%;
+    top:12%;
+    width: 145.91px;
+    height: 74.09px;
 } 
 .img-btn-2 > span{
     font-size: .8rem;
