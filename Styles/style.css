@@ -319,30 +319,86 @@ button:nth-child(1){
     text-align: center;
     margin-bottom: 30px;
 }
+
 .team-content{
-    width: 75%;
+    width: 1060px;
     display: grid;
-    border-radius: 20px;
+    border-radius:18px;
     background-color:rgb(24, 24, 24);
     grid-template-columns:350px 350px 350px;
     grid-template-rows: 300px 300px;
-    gap:30px;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    gap:2px;
+    padding-top: 25px;
+    padding-left: 25px;
     margin: 0 auto;
 }
-.team-member > img{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-}
+
 .team-member {
     position: relative;
 }
+.team-img1{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background:url("/images/trainer1.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.team-img2{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background:url("/images/trainer2.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.team-img3{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background:url("/images/trainer3.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.team-img4{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background:url("/images/trainer4.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.team-img5{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background:url("/images/trainer5.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.team-img6{
+    width: 326.67px;
+    height: 272px;
+    border-radius: 18px;
+    background:url("/images/trainer6.png");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.2);
+}
 .team-member-content{
     position: absolute;
-    top: 75%;
+    top: 65%;
     left:8%;
     color: white;
 }
@@ -352,25 +408,30 @@ button:nth-child(1){
     margin-bottom: 10px;
 }
 .team-member-content > p{
-    color: gray;
+    color:rgb(255, 255,255,0.5)
 }
 /* footer styles */
 footer{
     width: 100%;
-    background-color:rgb(24, 24, 24);
+    background-color:rgb(255, 255,255,0.1);
 }
 footer > section{
     width: 80%;
     margin: 50px auto;
-    color: gray;
+    color:rgb(255, 255,255,0.5);
     justify-content: space-around;
     padding: 100px;
 }
 .footer-content-1 > h1{
     color: rgb(230, 83, 60);
-    font-size: 5rem;
+    font-size:4.3rem;
     font-weight: 700;
     margin-bottom: 20px;
+}
+.footer-content-1 > p{
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(255, 255,255,0.5);
 }
 .footer-content-2 > h2{
     font-size: 2rem;
@@ -381,15 +442,14 @@ footer > section{
     margin-bottom: 20px;
     font-size: 1.5rem;
 }
-hr{
-    width: 80%;
-    margin: 0 auto;
-    margin-top: -60px;
+.footer-section{
+    border-bottom:  2px solid rgba(255, 255, 255, 0.1);  
 }
+
 .copyright-text{
-    color: gray;
+    color:rgb(255, 255,255,0.5);
     text-align: center;
-    margin-top: 40px;
+    margin-top: 36px;
     padding-bottom: 40px;
     font-size: 1.4rem;
 }
