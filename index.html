@@ -116,16 +116,22 @@
                 </div>
                 <div class="calculate-bmi">
                     <h1>Calculate your BMI</h1>
-                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of<br> income or access to a gym. </p>
+                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
                     <div class="input-container">
-                        <input type="text" name="" placeholder="Height/cm" id="">
-                        <input type="text" name="" placeholder="Weight/kg" id="">
-                        <input type="number" name="" placeholder="Age" id="">
-                        <select class="select-1">
-                            <option value="male">Sex</option>
-                            <option value="">Male</option>
-                            <option value="">Female</option>
-                        </select><br>
+                        <div class="display-flex ">
+                            <div class="input-content">
+                                <input type="text" name="" placeholder="Height/cm" id="">
+                                <input type="number" name="" placeholder="Age" id="">
+                            </div>
+                            <div>
+                                <input type="text" name="" placeholder="Weight/kg" id="">
+                                <select class="select-1">
+                                    <option value="male">Sex</option>
+                                    <option value="">Male</option>
+                                    <option value="">Female</option>
+                                </select>
+                            </div>
+                        </div>
                         <select class="select-2">
                             <option value="">Select an activity factor</option>
                         </select><br>

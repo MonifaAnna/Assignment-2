@@ -86,6 +86,11 @@
 
 
 /* small device */
+@media screen and (max-width:506px){
+    .run-image{
+        margin-left:-.6rem;
+    }
+}
 @media screen and (max-width:576px){
     .nav-item-container{
         display: none;
@@ -104,6 +109,9 @@
     width: 80%;
     margin:20px auto;
     }
+    .banner-description {
+        width: 100%;
+    }
 .banner-description > h1{  
     font-size: 2.3rem;
     line-height:2.7rem;
@@ -111,7 +119,7 @@
 .banner-images{
     margin-top:80px;
     margin-right:30px;
-    /* height: 466px; */
+    height: 480px;
     }
 .banner-images > img{
     width: 100%;
@@ -119,7 +127,7 @@
 }
 .primary-btn, .banner-btn{
     padding: 16px 20px 16px 20px;
-    width: 169px;
+    width: 160px;
     height: 54px;
 }
 .img-btn-description > .description-1{
@@ -185,7 +193,7 @@
 }
 .run-image > img{
     width: 85%;
-    margin-left:33px;
+    margin-left: 33px;
 }
 /* BMI section */
 .bmi-container > h1 {
@@ -198,6 +206,18 @@
     flex-direction: column;
     padding:0px;
 }
+input, .select-1{
+    width: 170px;
+}
+.input-content{
+    width: 190px;
+}
+.select-1{
+    width: 180px;
+}
+.select-2{
+    width: 368px;
+}
 .calculator-chart{
     padding-top: 40px;
     width:calc(100% - 20px);
@@ -206,11 +226,10 @@
 .calculate-bmi{
     padding-top: 40px;
     width:calc(100% - 20px);
-    padding-left: 20px;
+    margin-left: 0px;
    }
 .select-2{
     padding: 13px 55px;
-
 }
 /* team member */
 .team-container{
