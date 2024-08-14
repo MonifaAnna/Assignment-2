@@ -211,6 +211,7 @@
 .bmi-container > h1{
     padding-left:30px;
     width: 100%;
+    font-size: 2rem;
 }
 .bmi-container > p{
     padding-left:30px;
@@ -247,6 +248,9 @@ input, .select-1{
 .team-container{
     width:95%
 }
+.team-container > h1{
+    font-size: 2rem;
+}
 .team-content{
     width:333px;
     grid-template-columns: 280px;
@@ -260,7 +264,9 @@ input, .select-1{
     }
     .membership-description{
         width: 100%;
-      
+    }
+    .membership-description > h1{
+        font-size: 2rem;
     }
     .card-2, .card-1{
         margin-left: 0px;
