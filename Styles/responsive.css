@@ -86,6 +86,14 @@
 
 
 /* small device */
+/* @media screen and (max-width:400px){
+    .primary-btn, .banner-btn{
+        padding:10px;
+        width: 130px;
+        height: 54px;
+        background-color: rgba(5, 215, 100, 0.457);
+    }
+} */
 @media screen and (max-width:506px){
     .run-image{
         margin-left:-.6rem;
@@ -129,9 +137,10 @@
     height: 100%;
 }
 .primary-btn, .banner-btn{
-    padding: 16px 20px 16px 20px;
-    width: 160px;
+    padding: 10px 12px 10px 12px;
+    width: 140px;
     height: 54px;
+    font-size: 15px;
 }
 .img-btn-description > .description-1{
     font-size: 1.1rem;
@@ -162,7 +171,7 @@
 }
 /* habits */
 .habit-container{
-    padding-top: 20px;
+    padding-top: 60px;
 }
 .card-container{
     grid-template-columns:1fr;
