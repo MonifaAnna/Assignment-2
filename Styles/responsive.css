@@ -196,8 +196,9 @@
     margin-left: 33px;
 }
 /* BMI section */
-.bmi-container > h1 {
+.bmi-container > h1{
     padding-left:30px;
+    width: 100%;
 }
 .bmi-container > p{
     padding-left:30px;
@@ -205,34 +206,31 @@
 .bmi-content{
     flex-direction: column;
     padding:0px;
-    padding-left:20px;
-    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.calculate-bmi{
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.calculator-chart{
+    width: 100%;
 }
 input, .select-1{
-    width: 170px;
+    width: 140px;
 }
 .input-content{
     width: 190px;
 }
 .select-1{
-    width: 180px;
+    width: 150px;
 }
 .select-2{
-    width: 368px;
+    width: 314px;
 }
-.calculator-chart{
-    padding-top: 40px;
-    width:calc(100% - 20px);
-    padding-left: 20px;
-}
-.calculate-bmi{
-    padding-top: 40px;
-    width:calc(100% - 20px);
-    margin-left: 0px;
-   }
-.select-2{
-    padding: 13px 55px;
-}
+
 /* team member */
 .team-container{
     width:95%
@@ -244,6 +242,18 @@ input, .select-1{
     gap:20px;
     padding:20px;
 }
+/* unique membership section */
+    .membership-container, .membership-content{
+        flex-direction: column;
+    }
+    .membership-description{
+        width: 100%;
+      
+    }
+    .card-2, .card-1{
+        margin-left: 30px;
+        margin-top: 30px;
+    }
 /* footer */
 footer > section{
     flex-direction: column;

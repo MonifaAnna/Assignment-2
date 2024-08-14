@@ -340,7 +340,7 @@ button:nth-child(1){
     width: 326.67px;
     height: 272px;
     border-radius: 18px;
-    background:url("/images/trainer1.png");
+    background:url("../images/trainer1.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -350,7 +350,7 @@ button:nth-child(1){
     width: 326.67px;
     height: 272px;
     border-radius: 18px;
-    background:url("/images/trainer2.png");
+    background:url("../images/trainer2.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -360,7 +360,7 @@ button:nth-child(1){
     width: 326.67px;
     height: 272px;
     border-radius: 18px;
-    background:url("/images/trainer3.png");
+    background:url("../images/trainer3.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -370,7 +370,7 @@ button:nth-child(1){
     width: 326.67px;
     height: 272px;
     border-radius: 18px;
-    background:url("/images/trainer4.png");
+    background:url("../images/trainer4.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -380,7 +380,7 @@ button:nth-child(1){
     width: 326.67px;
     height: 272px;
     border-radius: 18px;
-    background:url("/images/trainer5.png");
+    background:url("../images/trainer5.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -390,7 +390,7 @@ button:nth-child(1){
     width: 326.67px;
     height: 272px;
     border-radius: 18px;
-    background:url("/images/trainer6.png");
+    background:url("../images/trainer6.png");
     background-size: cover;
     background-position: center;
     background-blend-mode: overlay;
@@ -409,6 +409,90 @@ button:nth-child(1){
 }
 .team-member-content > p{
     color:rgb(255, 255,255,0.5)
+}
+/* unique-membership section styles */
+.membership-container{
+    width: 73%;
+    margin: 0 auto;
+    color: white;
+    padding: 30px;
+}
+.membership-description{
+    width: 50%;
+}
+.membership-description > h1{
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+}
+.membership-subtitle > span{
+    color: rgb(230, 83, 60);
+    font-weight:800;
+}
+.membership-subtitle{
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.membership-description-text{
+    color: rgb(255, 255,255,0.5);
+    padding-bottom: 10px;
+}
+.membership-content{
+    width: 50%;
+}
+.card-1{
+    width: 250px;
+    position: relative;
+    border: 1px solid rgb(255, 255,255,0.3);
+} 
+.card-1:hover{
+    border:2px solid rgb(230, 83, 60);
+}
+.card-1 > img{
+    width: 100%;
+   
+}
+.card-uper-text{
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 83, 60);
+    width:237px;
+    font-size: 15px;
+    padding: 7px;
+    position:absolute;
+    top: 0px;
+}
+.card-description{
+    padding: 20px;
+}
+.card-description > h4{
+    font-size: 23px;
+    padding-top: 5px;
+}
+.card-description > p{
+    color: rgb(255, 255,255,0.5);
+    padding-top: 17px;
+    padding-bottom: 17px;
+}
+.price-box {
+    justify-content: space-between;
+}
+.price-box > p{
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 7px;
+}
+.price-box > button{
+    text-align: end;
+}
+.card-2{
+    width: 250px;
+    margin-left: 30px;
+}
+.select-btn{
+    padding: 12px 18px 12px 18px;
+    background-color: rgb(230, 83, 60);
+    color: white;
+    border: 0;
+    border-radius: 20px;
 }
 /* footer styles */
 footer{
