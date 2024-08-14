@@ -3,7 +3,7 @@
 @import url('https://fonts.cdnfonts.com/css/miama');
 .shape{
     font-family: 'Miama', sans-serif;
-    font-size: 4.8rem;                                     
+    font-size: 6.8rem;                                     
     font-weight: 400;
     font-style: normal;
 }
@@ -36,7 +36,7 @@ body{
 }
 /* navbar styles here */
 header{
-   background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0.315) 100%);
+    background: linear-gradient(180deg, rgb(33, 33, 33),rgba(119, 119, 119, 0) 100%);
 }
 
 .navbar{
@@ -174,7 +174,7 @@ button:nth-child(1){
     margin: 0px auto;
     text-align: center;
     color: white;
-    margin-top: 50px;
+    padding-top:60px;
 }
 .habit-title{
     font-size:3rem;
@@ -317,7 +317,7 @@ button:nth-child(1){
 .team-container > p{
     color: rgb(96, 94, 94);
     text-align: center;
-    margin-bottom: 30px;
+    padding-bottom:50px;
 }
 
 .team-content{
@@ -485,7 +485,7 @@ button:nth-child(1){
 }
 .card-2{
     width: 250px;
-    margin-left: 30px;
+    margin-left: 40px;
 }
 .select-btn{
     padding: 12px 18px 12px 18px;
