@@ -86,14 +86,7 @@
 
 
 /* small device */
-/* @media screen and (max-width:400px){
-    .primary-btn, .banner-btn{
-        padding:10px;
-        width: 130px;
-        height: 54px;
-        background-color: rgba(5, 215, 100, 0.457);
-    }
-} */
+
 @media screen and (max-width:506px){
     .run-image{
         margin-left:-.6rem;
@@ -138,9 +131,8 @@
 }
 .primary-btn, .banner-btn{
     padding: 10px 12px 10px 12px;
-    width: 140px;
+    width: 160px;
     height: 54px;
-    font-size: 15px;
 }
 .img-btn-description > .description-1{
     font-size: 1.1rem;
@@ -291,4 +283,12 @@ footer > section{
     text-align: start;
     margin-left: 55px;
 }
+}
+@media screen and (max-width:450px){
+    .primary-btn, .banner-btn{
+        padding:8px;
+        width: 130px;
+        height: 40px;
+        font-size: 15px;
+    }
 }
